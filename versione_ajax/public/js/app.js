@@ -100,7 +100,7 @@ $(document).ready(function () {
 
   var template_function = Handlebars.compile(template_html);
   $.ajax({
-    "url": "dischi.php",
+    "url": "http://localhost:8888/Boolean_2/4_gennaio_23_php_ajax_dischi/versione_ajax/dischi.php",
     "method": "get",
     "success": function success(data) {
       // recupero l array che contiene tutti i dischi

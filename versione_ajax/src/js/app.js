@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 
     $.ajax({
-        "url": "dischi.php",
+        "url": "http://localhost:8888/Boolean_2/4_gennaio_23_php_ajax_dischi/versione_ajax/dischi.php",
         "method": "get",
         "success": function(data) {
             // recupero l array che contiene tutti i dischi
